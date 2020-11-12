@@ -21,7 +21,7 @@ div > .box-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 aside {
@@ -29,7 +29,7 @@ aside {
   grid-column-start: 2;
   grid-column-end: 13;
 }
-nav {
+/* nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -37,14 +37,14 @@ nav {
   justify-content: space-around;
   text-align: center;
   font-size: 16px;
-  border: 2px solid red;
-}
+ border: 2px solid red;
+}*/
 .container-2 {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: 2fr 1fr 2fr;
   text-align: center;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: auto;
   width: 90%;
   height: 75vh;
@@ -60,7 +60,7 @@ nav {
   margin: 0;
 }
 div > img {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .image {
   width: 80%;
@@ -79,7 +79,7 @@ div > img {
   color: black;
 }
 nav > a {
-  border: 2px solid red;
+  /*  border: 2px solid red; */
 }
 .logo {
   grid-column-start: 1;
@@ -177,7 +177,7 @@ div > p {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-left: 5%;
   margin-right: 5%;
   border-bottom: 1px solid black;
@@ -251,11 +251,11 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  border: 2px solid red;
+  /*  border: 2px solid red; */
   padding: 20px;
 }
 .container-3 > div {
-  border: 2px solid red;
+  /*   border: 2px solid red; */
 }
 .txt-center {
   grid-column-start: 1;
@@ -285,7 +285,7 @@ footer {
   color: white;
 }
 .footer-bottom > div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .left-content {
   grid-column-start: 1;
@@ -295,7 +295,7 @@ footer {
 }
 .left-content > ul {
   list-style: none;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .left-content > ul li {
   display: inline;
@@ -332,12 +332,12 @@ footer {
 
 } */
 @media (max-width: 800px) {
-  nav {
+  nav .navigation {
     display: block;
   }
 }
 @media (min-width: 768px) {
-  .hamburger {
+  aside .hamburger {
     display: none;
   }
 }
@@ -351,7 +351,7 @@ footer {
     justify-items: end;
     justify-content: space-between;
   }
-  nav {
+  aside > nav ul {
     display: none;
   }
   .job-section {
@@ -381,4 +381,33 @@ footer {
 }
 aside > .hamburger {
   padding: 10px;
+}
+a > .icon {
+  padding: 10px;
+}
+.navigation {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 3fr auto;
+  padding: 0px;
+}
+.navigation ul {
+  list-style-type: none;
+}
+.navigation li {
+  display: inline;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.button {
+  text-decoration: none;
+  background-color: #2e9ee4;
+  color: white;
+  border-radius: 23px;
+  text-align: center;
+  padding: 10px 0.75rem;
+  transition: all 0.2s linear;
 }
