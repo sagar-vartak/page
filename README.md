@@ -46,4 +46,4 @@ To make the website Responsive
 
 ## Live LINK:
 
-[Link to the live Portfolio](https://sagar-vartak.github.io/page/)
+[Link to the live Page](https://sagar-vartak.github.io/page/)
