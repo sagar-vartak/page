@@ -46,9 +46,9 @@ aside {
   text-align: center;
   /* border: 2px solid blue; */
   margin: auto;
-  width: 90%;
-  height: 75vh;
-  padding: 0px;
+  width: 80%;
+  height: 70vh;
+  padding: 5px;
 }
 .imge {
   width: 100%;
@@ -56,7 +56,7 @@ aside {
   object-fit: cover;
 }
 .container-2 > div > img {
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 div > img {
